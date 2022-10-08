@@ -1,5 +1,12 @@
 {
-  "name": "project",
+  "private": true,
+  "name": "saui",
+  "packageManager": "pnpm@7.12.1",
+  "workspaces": [
+    "configs/*",
+    "packages",
+    "play"
+  ],
   "version": "1.0.0",
   "description": "",
   "keywords": [],
