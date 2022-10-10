@@ -25,7 +25,6 @@ module.exports = defineConfig({
     {
       files: ['*.ts', '*.vue'],
       parser: 'vue-eslint-parser',
-      // parser: "vue-eslint-parser",
       parserOptions: {
         ecmaVersion: 'latest',
         parser: '@typescript-eslint/parser',
